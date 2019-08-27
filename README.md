@@ -3,7 +3,7 @@
 Main files for different simulation settings are in different directories:
 - **ryr** : Control (SERCAPumps and RyR)
 - **ns** : SERCA Blocked (none)
-- **serca** : SERCA without receptors (SERCAPumps)
+- **serca** : RyR Blocked (SERCAPumps)
 - **ip3** : IP3R SERCA Pumps and IP3R
 - **recon-ns** : SERCA Blocked (none) for simulations in reconstruction geometry
 - **recon-ryr** : Control (SERCAPumps and RyR) for simulations in reconstruction geometry
@@ -23,4 +23,4 @@ Run these mdl files through terminal (linux) or command prompt (windows) with fo
 mcell RSI20V80.mdl
 ```
 
-Visit the [MCell Webpage](http://www.mcell.org/) for documentation, installation and tutorial on MCell. Due to major changes in mcell, this model is not compatible with latest version of mcell. Use mcell v3.3 instead.
+Visit the [MCell Webpage](http://www.mcell.org/) for documentation, installation and tutorial on MCell. Due to major changes in mcell, this model is not compatible with latest version of mcell. Use mcell v3.2.1 instead. The executable mcell file is provided in the repository also.
